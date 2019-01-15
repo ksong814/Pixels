@@ -44,48 +44,7 @@ def box(intDim):
     myPen.end_fill()
     myPen.setheading(0)  
 
- 
-# You will save your drawings as lists.
-# This first list stores the color values
-pallet_1 = ["#FFFFFF" , "#FFFF00" , "#000000" , "#61380B" , "#F4FA58"]
-# Your drawings are stored using a "list of lists" where each value within every list
-# element is the index of the color in the pallet list
-# Banana
-pixels_1 = [[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]
-pixels_1.append([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0])
-pixels_1.append([0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0])
-pixels_1.append([0,0,0,0,0,0,2,2,3,3,2,0,0,0,0,0])
-pixels_1.append([0,0,0,0,0,2,4,1,2,2,0,0,0,0,0,0])
-pixels_1.append([0,0,0,0,2,4,4,1,2,0,0,0,0,0,0,0])
-pixels_1.append([0,0,0,2,4,4,1,2,0,0,0,0,0,0,0,0])
-pixels_1.append([0,0,2,4,4,4,1,2,0,0,0,0,0,0,0,0])
-pixels_1.append([0,0,2,4,1,1,2,0,0,0,0,0,0,0,0,0])
-pixels_1.append([0,0,2,4,4,1,2,0,0,0,0,0,0,0,0,0])
-pixels_1.append([0,0,0,2,4,1,1,2,2,2,0,0,0,0,0,0])
-pixels_1.append([0,0,0,0,2,4,1,3,2,0,0,0,0,0,0,0])
-pixels_1.append([0,0,0,0,0,2,2,2,0,0,0,0,0,0,0,0])
-pixels_1.append([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0])
-pixels_1.append([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0])
-pixels_1.append([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0])
 
-# Mario
-pallet_2 = ["#4B610B" , "#FAFAFA" , "#DF0101" , "#FE9A2E"]
-pixels_2 = [[1,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1]]
-pixels_2.append([1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,1])
-pixels_2.append([1,1,1,0,0,0,3,3,3,3,3,0,3,1,1,1])
-pixels_2.append([1,1,0,3,0,3,3,3,3,3,3,0,3,3,3,1])
-pixels_2.append([1,1,0,3,0,0,3,3,3,3,3,3,0,3,3,3])
-pixels_2.append([1,1,0,0,3,3,3,3,3,3,3,0,0,0,0,1])
-pixels_2.append([1,1,1,1,3,3,3,3,3,3,3,3,3,3,1,1])
-pixels_2.append([1,1,1,0,0,2,0,0,0,0,2,0,1,1,1,1])
-pixels_2.append([1,1,0,0,0,2,0,0,0,0,2,0,0,0,1,1])
-pixels_2.append([0,0,0,0,0,2,2,2,2,2,2,0,0,0,0,0])
-pixels_2.append([3,3,3,0,2,3,2,2,2,2,3,2,0,3,3,3])
-pixels_2.append([3,3,3,3,2,2,2,2,2,2,2,2,3,3,3,3])
-pixels_2.append([3,3,3,2,2,2,2,1,1,2,2,2,2,3,3,3])
-pixels_2.append([1,1,1,2,2,2,1,1,1,1,2,2,2,1,1,1])
-pixels_2.append([1,0,0,0,0,1,1,1,1,1,1,0,0,0,0,1])
-pixels_2.append([0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0])
 
 # Tina ~ :) 
 pallet_tina = ['#FFFFFF' , '#000000' , '#F4A460' , '#FFFF00' , '#00BFFF' , '#800000' , '#FF69B4']
